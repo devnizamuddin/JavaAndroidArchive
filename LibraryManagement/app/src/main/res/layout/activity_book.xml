@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nizamuddinshamrat.librarymanagement.BookActivity"
+    android:background="@color/redlight"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    >
+    <EditText
+        android:id="@+id/nameBookEt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Book Name"
+        android:gravity="center"
+        android:background="@drawable/corner"
+        android:backgroundTint="@color/white"
+        />
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/writerBookEt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Writer Name"
+        android:gravity="center"
+        android:background="@drawable/corner"
+        android:backgroundTint="@color/white"
+        />
+    <Spinner
+        android:tooltipText="sdfsdfsdf"
+        android:id="@+id/categorySp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+
+        />
+    <Spinner
+        android:id="@+id/languageSp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+
+        />
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/addBookBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Add this Book"
+        android:gravity="center"
+        android:background="@drawable/corner"
+        android:backgroundTint="@color/white"
+        android:onClick="addBooks"
+        />
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/addMoreBookBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Add More Book"
+        android:gravity="center"
+        android:background="@drawable/corner"
+        android:backgroundTint="@color/white"
+        android:onClick="addMoreBooks"
+        />
+
+</LinearLayout>

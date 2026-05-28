@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nizamuddinshamrat.librarymanagement.UserProfileActivity"
+    android:orientation="vertical"
+    android:padding="15dp"
+    >
+
+    <TextView
+        android:id="@+id/userNameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Nusaiba Nizam"
+        android:textSize="35dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="italic|bold"/>
+    <TextView
+        android:id="@+id/userIdTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        tools:text="User Id:00012"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:id="@+id/userGenderTV"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        tools:text="Femail"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/userBirthDateTV"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        tools:text="23th July 1997"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/userEmailTV"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        tools:text="sara@gmail.com"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:onClick="editProfile"
+        android:text="Edit"
+        android:id="@+id/editUserInfo"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:onClick="deleteProfile"
+        android:text="Delete Profile"
+        android:id="@+id/deleteUserInfo"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

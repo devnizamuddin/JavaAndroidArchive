@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nizamuddinshamrat.librarymanagement.AdminActivity"
+    android:background="@color/redlight"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    >
+    <Button
+        android:id="@+id/addBooksBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Add new books"
+        android:background="@color/white"
+        android:onClick="addNewBooks"
+        />
+    <Button
+        android:id="@+id/updateBookBtn"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Udate books information"
+        android:background="@color/white"
+        android:onClick="UpdateBooksInfo"
+        />
+
+</LinearLayout>
